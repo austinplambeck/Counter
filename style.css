@@ -1,0 +1,39 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+}
+
+#numberDisplay {
+    font-size: 5rem;
+    margin-bottom: 2vh;
+    font-family: 'Space Mono', monospace;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#decrease, #reset, #increase {
+    margin: 1vh;
+    padding: 1vh 1.5vh;
+    font-size: 1.5rem;
+    border: 0.5vh solid #3a4c8d;
+    background-color: #ccd3f2;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
